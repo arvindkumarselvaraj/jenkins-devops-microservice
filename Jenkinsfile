@@ -1,8 +1,11 @@
 node {
 	stage('Build') {
-		echo "Build"
+		echo "Build happening"
 	}
-	stage('Test') {
-		echo "Test"
+	stage('Unit Test') {
+		echo "Unit Test Starting"
+	}
+	stage('Integration Test'){
+	    echo "Integration Test starting"
 	}
 }
